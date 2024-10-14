@@ -13,7 +13,15 @@ export class AppController {
     };
   }
 
+  @Post('SikeresFoglalas')
+  @Redirect('/SikeresFoglalas')
+  getValami() {
 
+  } 
 
+  @Get('SikeresFoglalas')
+  @Render('SikeresFoglalas')
+  getValami2() {
   }
 }
+
